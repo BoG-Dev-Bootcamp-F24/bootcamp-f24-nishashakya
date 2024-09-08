@@ -8,7 +8,7 @@ In this exercise, bootcampers will familiarize themselves with Unix Commands, Gi
 
 Collect points for this exercise by creating and having the correct contents for the GitHub repo specified in the Instructions.
 
-- **Due Date**: 9-12-2023
+- **Due Date**: 9-10-2024
 
 ## Instructions
 
@@ -22,7 +22,7 @@ This exercise involves setting up your GitHub repo in the BoG Dev Bootcamp Organ
 6. When the new repo has been created, click **Code** and **HTTPS** and copy the text
 7. Open Terminal or Git Bash on your computer and clone the repo with the command `git clone https://github.com/BoG-Dev-Bootcamp-F24/bootcamp-f24-yourname.git` (make sure you know where this folder is located for future reference)
 8. Navigate into the `bootcamp-f24-yourname` directory that was just created via the clone command
-9. Navigate into the `exercise2` folder
+9. Navigate into the `exercise-2` folder
 10. Add the intro card files you wrote for your bootcamp application into the folder
 11. Stage, commit, and push these changes to GitHub
 
