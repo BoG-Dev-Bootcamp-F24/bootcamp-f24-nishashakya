@@ -5,7 +5,7 @@ In this exercise, you will install and set up all the necessary tools for web de
 
 ## Submission
 Collect points for this exercise by sending your GitHub username in the `gt-bootcamp-dev` Slack channel. 
-- **Due Date**: 9-7-2023
+- **Due Date**: 9-10-24
 
 ## Instructions
 
