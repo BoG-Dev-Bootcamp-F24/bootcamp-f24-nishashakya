@@ -4,7 +4,6 @@
 In this exercise, you will install and set up all the necessary tools for web development. This exercise is **mandatory** as it will be a basis for all that we do in this bootcamp. 
 
 ## Submission
-Collect points for this exercise by sending your GitHub username in the `gt-bootcamp-dev` Slack channel. 
 - **Due Date**: 9-10-24
 
 ## Instructions
