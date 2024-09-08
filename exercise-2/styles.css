@@ -1,0 +1,80 @@
+/* Your Styles Here */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #BFDAF7;
+    /* margin: 0; */
+}
+
+.card {
+    background-color: transparent;
+    width: 550px;
+    height: 410px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+}
+
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 40px;
+    box-sizing: border-box;
+    word-wrap: break-word; 
+}
+
+.card-front {
+    color: black;
+}
+
+.card-back {
+    color: black;
+    background-color: white;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img {
+    border-radius: 10%;
+    width: 75px;
+    height: 105px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 0 0 10px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #7d7d7d;
+    margin: 10px 0;
+    line-height: 1.3; 
+}
