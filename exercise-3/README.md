@@ -9,7 +9,7 @@ See the submission instructions down below.
   
 ## Instructions
 In this exercise, you will choose an api from the list of public apis and create a Postman collection to send some requests to it. https://github.com/public-apis/public-apis?tab=readme-ov-file
-For HTTP requests that are not generally supported by publnic apis (DELETE), play around with https://httpbin.org/#/HTTP_Methods/ which allows you to see exactly what the server gets from your request. 
+For HTTP requests that are not generally supported by public apis (DELETE), play around with https://httpbin.org/#/HTTP_Methods/ which allows you to see exactly what the server gets from your request. 
 
 **Requirements:**
 - Make at least 1 different requests of each type
