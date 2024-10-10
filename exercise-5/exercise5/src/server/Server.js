@@ -37,7 +37,7 @@ const stationSchema = new mongoose.Schema({
       required: true 
     },
     stations: { 
-      type: [String], // Array of strings to hold station names
+      type: [String],
       required: true 
     }
 });
@@ -49,19 +49,19 @@ const Station = mongoose.model("Station", stationSchema);
 
 app.get("/api/trains", async (req, res) => {
   try {
-    const trains = await Train.find(); // Fetch trains
+    const trains = await Train.find();
     res.json(trains);
   } catch (error) {
-    res.status(500).json({ error: error.message }); // Error handling
+    res.status(500).json({ error: error.message });
   }
 });
 
 app.get("/api/stations", async (req, res) => {
   try {
-    const stations = await Station.find(); // Fetch stations
+    const stations = await Station.find();
     res.json(stations);
   } catch (error) {
-    res.status(500).json({ error: error.message }); // Error handling
+    res.status(500).json({ error: error.message });
   }
 });
 
