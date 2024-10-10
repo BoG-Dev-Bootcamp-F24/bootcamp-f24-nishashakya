@@ -8,7 +8,7 @@ In this exercise, bootcampers will familiarize themselves with TypeScript and da
 
 See the submission instructions down below.
 
-- **Due Date**: 10-17-2024
+- **Due Date**: 10-22-2024
 
 ## Instructions
 
