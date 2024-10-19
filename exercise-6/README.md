@@ -1,5 +1,8 @@
 # Exercise 6 - Advanced Marta Interface
 
+## Video Link
+https://drive.google.com/file/d/1diGCn4IE-Bp1QDdbOJ5lAuo79ifJuV0H/view?usp=sharing
+
 ## Description
 
 In this exercise, bootcampers will familiarize themselves with TypeScript and data filtering techniques.
