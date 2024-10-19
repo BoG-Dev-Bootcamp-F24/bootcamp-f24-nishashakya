@@ -1,0 +1,63 @@
+html, body {
+  height: 100%;                /* Ensure html and body take full height */
+  margin: 0;                   /* Remove default margin */
+}
+
+.app-container {
+  display: flex;               /* Use Flexbox for layout */
+  flex-direction: column;      /* Stack children vertically */
+  height: 100vh;              /* Full height of the viewport */
+}
+
+.line-buttons-container {
+  display: flex;               /* Use Flexbox for the line buttons */
+  justify-content: center;     /* Center the buttons */
+  background-color: #ffffff;  /* Light gray background for buttons area */
+  padding: 10px;              /* Add some padding */
+}
+
+.header {
+  text-align: center;          /* Center text in header */
+  padding: 10px;              /* Add some padding */
+  font-size: 24px;            /* Font size for the header */
+  font-weight: bold;           /* Bold font for header */
+  background-color: inherit;   /* Ensure header inherits background color */
+}
+
+.content-container {
+  display: flex;               /* Use Flexbox to align content */
+  flex: 1;                     /* Take remaining height */
+}
+
+.navbar-container {
+  flex: 1;                     /* Takes up 1 part of the available space (left side) */
+  background-color: rgba(18, 18, 18, 0.877); /* Background color for the navbar */
+  padding: 10px;              /* Add some padding */
+}
+
+.trainlist-container {
+  flex: 2;                     /* Takes up 1 part of the available space (right side) */
+  background-color: rgb(255, 255, 255);/* Background color for the train list */
+  padding: 20px;              /* Add some padding */
+}
+
+.header {
+  text-align: center;          /* Center text in header */
+  padding: 10px;              /* Add some padding */
+  font-size: 24px;            /* Font size for the header */
+  font-weight: bold;          /* Bold font for header */
+  background-color: inherit;   /* Ensure header inherits background color */
+}
+
+.header-divider {              /* Remove default border */
+  height: 1px;               /* Set the height of the line */
+  background-color: black;   /* Set the color of the line */
+  margin: 10px 0;            /* Add some vertical spacing */
+}
+
+
+
+
+
+
+

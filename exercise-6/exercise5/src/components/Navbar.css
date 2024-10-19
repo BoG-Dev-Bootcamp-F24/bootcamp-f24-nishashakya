@@ -1,0 +1,15 @@
+.navbar {
+    padding: 20px;
+  }
+  
+  .station-button {
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    margin: 5px 0;
+    cursor: pointer;
+    background-color: inherit;
+    width: 500px;
+  }
+  
